@@ -289,7 +289,7 @@ class App extends React.Component {
 
     return (
       <div className="App" >
-        React-Sora RecvOnly<br />
+        React-Sora RecvOnly for momo monitor<br />
         { /*
         Video Codec:
         <select value={this.state.videoCodec} onChange={this.handleCodecChange} disabled={this.state.connected} >
