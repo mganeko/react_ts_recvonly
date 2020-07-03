@@ -282,7 +282,7 @@ class App extends React.Component {
       const stream: MediaStream = this[key]; // this は this.state.remoteStream
       console.log('key=id=%s, stream.id=%s', key, stream.id);
       remoteVideos.push(
-        <Video id={key} key={key} width={"480px"} height={"320px"} volume={0.5} controls={true} stream={stream}>
+        <Video id={key} key={key} width={"100%"} height={""} volume={0.5} controls={true} stream={stream}>
         </Video>
       );
     }, this.state.remoteStreams);
